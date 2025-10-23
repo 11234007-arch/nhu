@@ -45,7 +45,7 @@
 <img width="890" height="471" alt="螢幕擷取畫面 2025-10-23 003723" src="https://github.com/user-attachments/assets/dabfd68e-7e62-4a34-bfbb-996f5255c8ab" />
 
 ## 步驟11:定義訓練函式 fit 和驗證函式 evaluate，用指定的 epoch 數與學習率訓練模型，並在每個 epoch 後計算驗證集的損失與準確率。
-### 要注意縮排
+要注意縮排
 <img width="1086" height="520" alt="螢幕擷取畫面 2025-10-23 003850" src="https://github.com/user-attachments/assets/699a4ac2-ac6d-4d43-8117-2e18886a89d6" />
 
 ## 步驟12:建立一個輸入 784 維、隱藏層 32 個神經元、輸出 10 類的 Mnistmodel，並將模型搬到指定的運算裝置（CPU 或 GPU）。
@@ -63,4 +63,6 @@
 ## 步驟15:以較小的學習率 0.1 再訓練模型 5 個 epoch，並把每個 epoch 的驗證結果加入 history 紀錄。
 
 <img width="695" height="233" alt="螢幕擷取畫面 2025-10-23 004927" src="https://github.com/user-attachments/assets/36cfe244-4a31-4d3c-9468-9f47341994e3" />
+
+參考文章:https://zhuanlan.zhihu.com/p/379291795
 
